@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    color: red;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+main{
+    background-color: aquamarine;
+    box-shadow: 2px 2px 9px gray ;
+    min-height: 400px;
+    width: 400px;
+    padding: 20px;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+form button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+}
+
+#Marcar-todas{
+    background-color: blueviolet;
+}
+
+#Limpar{
+    background-color: gray;
+}
+
+.feito{
+    background-color: green;
+}
