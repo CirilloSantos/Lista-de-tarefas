@@ -5,11 +5,6 @@ function marcarTarefaComoFeita(evento){
     let tarefa = document.querySelector('li');
     tarefa.classList.add('feito');
 }
-function apagarTarefas(evento){
-    let excluir = document.querySelector('li');
-    excluir.classList.add('Limpar')
-
-}
 
 function cadastrarTarefas(evento){
     evento.preventDefault();
