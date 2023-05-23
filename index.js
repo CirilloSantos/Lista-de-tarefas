@@ -19,4 +19,3 @@ function cadastrarTarefas(evento){
 
 formulario.addEventListener('submit', cadastrarTarefas);
 
-
